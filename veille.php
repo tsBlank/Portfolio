@@ -19,7 +19,7 @@
                     <li><a href="entreprise.php">Entreprise</a></li>
                     <li><a href="realisation.php">Réalisation</a></li>
                     <li><a href="veille.php">Veille</a></li>
-                    <li><a href="bilan.php">Bilan</a></li>
+                    <li><a href="bilan.html">Bilan</a></li>
                 </ul>
             </nav>
         </div>
