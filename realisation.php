@@ -31,19 +31,18 @@
                 <div class="work">
                     <img src="assets/work.jpg" alt="work">
                     <div class="layer">
-                        <h3>Project Name</h3>
-                        <p>Insert project description</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Gestion Support Client</h3>
+                        <p>Gestion d'une demande de fusion de dossier par un client.</p> 
+                        <a href="./document/Gestion_demande_client.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="assets/work.jpg" alt="work">
-                </div>
-                <div class="work">
-                    <img src="assets/work.jpg" alt="work">
-                </div>
-                <div class="work">
-                    <img src="assets/work.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Script - Traitement de demande de frais</h3>
+                        <p>Gestion d'une demande de fusion de dossier par un client.</p> 
+                        <a href="./document/Traitement demande de frais.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
