@@ -78,7 +78,7 @@ nav ul li a:hover::after{
 }
 
 #portfolio{
-    padding: 50px 0;
+    padding: 5px 0;
 }
 
 .work-list{
@@ -158,7 +158,6 @@ nav ul li a:hover::after{
 
 
 footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
     height: 100px;
