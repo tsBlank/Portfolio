@@ -83,6 +83,7 @@ nav ul li a:hover::after{
 
 #portfolio{
     padding: 5px 0;
+    margin-bottom: 2%;
 }
 
 .work-list{
@@ -284,4 +285,9 @@ hr {
     height: 38px;
     width: 38px;
     margin-bottom: 5px;
+}
+
+#portfolio h2 {
+    padding: 10px 10%;
+    padding-top: 2%;
 }
