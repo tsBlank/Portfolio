@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: 'Roboto-Regular';
     src: url("font/Roboto-Regular.ttf") format("truetype");
@@ -62,6 +61,10 @@ nav ul li a:hover::after{
     width: 160px;
 }
 
+
+#index {
+    min-height: 90vh;
+}
 
 .header-text{
     margin-top: 20%;
@@ -249,4 +252,23 @@ hr {
 .small_icon_entreprise {
     width: 24px;
     padding-right: 1%;
+}
+
+.veille-section {
+    margin-right: 35%;
+}
+
+#menu-tri {
+    padding: 10px 10%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
+}
+
+#menu-tri a {
+    color:#fff;
+    text-decoration: none;
+    
+    
+
 }

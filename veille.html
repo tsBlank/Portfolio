@@ -34,17 +34,28 @@
         <div class="container">
             <div class="veille-section">
                 <h2>Qu'est ce que la veille technologique ?</h2>
-                <p>Lorem Ipsum</p>
+                <p><br>La veille technologique est un processus continu de surveillance, d'analyse et de suivi des
+                    avancées, des tendances et des évolutions dans le domaine de la technologie. Cela comprend la
+                    surveillance des nouveaux produits, des innovations, des découvertes de recherche, des mises à jour
+                    logicielles, des tendances du marché, des réglementations et de toute autre information pertinente
+                    dans le domaine technologique.</p>
             </div>
         </div>
 
         <div class="container">
             <div class="veille-section">
                 <h2>Le sujet de ma veille</h2>
-                <p>Lorem ipsum</p>
+                <p><br>Lorem ipsum</p>
             </div>
         </div>
 
+
+        <div id="menu-tri">
+            <p>Trier par :</p>
+            <a href="#" id="sort-date">Date</a>
+            <a href="#" id="sort-alpha">Alphabétique</a>
+            <a href="#" id="sort-note">Note</a>
+        </div>
 
         <div id="portfolio">
             <div class="container">
@@ -100,5 +111,29 @@
         <p>&copy; 2024 Théo Suquet - <a href="mentions-legales.html">Mentions Légales</a></p>
     </div>
 </footer>
+
+
+<script>
+    const sortDate = document.getElementById('sort-date');
+    const articlesList = document.getElementsByClassName("work-list");
+    const articles = Array.from(articlesList.getElementsByClassName('work'));
+
+    sortDate.addEventListener('click', () => {
+        sortArticles('date');
+    });
+
+    function sortArticles(order) {
+        if (order == "date") {
+            articles/sprt((a, b) => {
+                const dateA = new Date(a.querySelector('.date').textContent);
+                const dateB = new Date(b.querySelector('.date').textContent);
+                return dateA - dateB;
+            });
+        }
+
+        articlesList.innerHTML= "";
+        articles.forEach(article)
+    }
+</script>
 
 </html>
