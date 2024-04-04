@@ -309,3 +309,18 @@ hr {
 main {
     padding: 10px 10%;
 }
+
+
+#content-gestion-client {
+    margin-top: 5%;
+}
+
+#content-gestion-client img {
+    border-radius: 8px;
+    height: 600px;
+    margin-top: 3%;
+    display: block;
+    text-align: center;
+    margin-bottom: 3%;
+    max-width: 95%;
+}
