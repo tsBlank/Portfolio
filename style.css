@@ -263,12 +263,10 @@ hr {
     display: flex;
     justify-content: flex-start;
     gap: 2%;
+    margin-top: 3%;
 }
 
 #menu-tri a {
     color:#fff;
     text-decoration: none;
-    
-    
-
 }
