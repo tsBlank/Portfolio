@@ -1,11 +1,18 @@
+
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("font/Roboto-Regular.ttf") format("truetype");
+}
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto-Regular', sans-serif;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #080808;
     color: #fff;
 }
@@ -30,7 +37,7 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     position: relative;
 }
 
@@ -54,6 +61,7 @@ nav ul li a:hover::after{
 .logo{
     width: 160px;
 }
+
 
 .header-text{
     margin-top: 20%;
@@ -168,7 +176,11 @@ footer a:hover {
 }
 
 .mentions-legales-sections {
-    margin-top: 50px;
+    margin-top: 3%;
+}
+
+.mentions-legales-sections p {
+    margin-top: 1%;
 }
 
 
@@ -180,4 +192,62 @@ footer a:hover {
 hr {
     width: 40%;
     margin: 30px auto;
+}
+
+#container-mention-légale {
+    margin-top: 4%;
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#container-bilan {
+    font-size: 28px;
+    margin-top:3%;
+    padding: 10px 10%;
+}
+
+#container-bilan p {
+    margin-top: 1%;
+}
+
+
+#bilanbox1 {
+    width: 60%;
+}
+
+#bilanbox2 {
+    margin-top: 7%;
+    margin-left: 60%
+}
+
+#bilanbox2 h2{
+    margin-bottom: 2%;
+}
+
+.container-entreprise {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box_info_entreprise{
+    padding: 5%
+}
+
+#entreprise {
+    font-size: 20px;
+}
+
+#entreprise .container h1 {
+    display: inline-block;
+    padding-right: 5%;
+}
+
+.small_icon_entreprise {
+    width: 24px;
+    padding-right: 1%;
 }
