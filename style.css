@@ -294,15 +294,16 @@ hr {
 }
 
 .realisation-description {
+    margin-top: 3%;
     display: flex;
     justify-content: flex-start;
     gap: 2%;
 
 }
 
-
 .box-description {
-    margin-top: 2%
+    margin-top: 2%;
+    width: 25%;
 }
 
 main {
