@@ -166,6 +166,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 100px;
+    margin-top: 2%;
 }
 
 footer a {
@@ -223,7 +224,7 @@ hr {
 }
 
 #bilanbox2 {
-    margin-top: 7%;
+    margin-top: 5%;
     margin-left: 60%
 }
 
@@ -290,4 +291,20 @@ hr {
 #portfolio h2 {
     padding: 10px 10%;
     padding-top: 2%;
+}
+
+.realisation-description {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
+
+}
+
+
+.box-description {
+    margin-top: 2%
+}
+
+main {
+    padding: 10px 10%;
 }
